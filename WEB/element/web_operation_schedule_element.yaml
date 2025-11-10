@@ -1,0 +1,30 @@
+﻿#Search
+OrgInput: "xpath==//input[@id='organization']"
+TrunkTypeInput: "xpath==//input[@id='trunkTypeId']"
+ArrivalLocationInput: "xpath==//input[@id='arrivalLocation']"
+OpPatternInput: "xpath==//input[@id='operationPatternId']"
+CarrierInput: "xpath==//input[@id='carrierId']"
+ContractStatusInput: "xpath==//input[@id='contractStatus']"
+CourseNameInput: "xpath==(//div[@data-testid='-text-field']//input)[1]"
+OpMonthInput: "xpath==//input[@data-testid='dateBox-input-dateBox']"
+SearchButton: "xpath==//div[contains(@class,'searchButton')]//button"
+SaveButton: "xpath==//button[contains(@class,'MuiButton-containedPrimary')]"
+
+# trunk table
+trunkList: "xpath==//div[@data-id='trunk-list-####']" # trunk line id
+trunkType: "xpath==//div[@data-id='trunk-list-####']//div[@data-field='trunkTypeName']"
+courseName: "xpath==//div[@data-id='trunk-list-####']//div[@data-field='courseName']"
+trunkName: "xpath==//div[@data-id='trunk-list-####']//div[@data-field='trunkLineName']//button"
+carrierName: "xpath==//div[@data-id='trunk-list-####']//div[@data-field='carrierName']"
+DpTime: "xpath==//div[@data-id='trunk-list-####']//div[@data-field='plannedStartingTime']"
+selectOneMonthOfOneTrunk: "xpath==//div[@data-id='trunk-list-####']//div[@data-field='selection']//input"
+selectOneDateOfOneTrunk: "xpath==//div[@data-id='trunk-list-####']//div[@data-field='@@@@']//input" # trunk line id, date 2025-01-01
+selectAllDateAllTrunk: "xpath==//div[@role='columnheader' and @aria-colindex='6']//input"   # trunk line id
+selectOneDateAllTrunk: "xpath==//div[@role='columnheader' and @aria-colindex='####']//input" # date order ,from 7
+
+#popup
+popup: "xpath==//div[@role='dialog']"
+popup_title: "xpath==//div[@role='dialog']//h2"
+popup_hint: "xpath==//div[@role='dialog']//p"
+popup_button_yes: "xpath==//button[@data-testid='confirm-dialog-button-yes']"
+popup_button_no: "xpath==//button[@data-testid='confirm-dialog-button-no']"

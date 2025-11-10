@@ -1,0 +1,12 @@
+INFO	2025-09-16 10:00:39,273	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 10:00:39,273	[basepage.py:326]	Locator-value ://input[@id='organization']
+INFO	2025-09-16 10:00:39,284	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='organization']")
+INFO	2025-09-16 10:00:39,601	[basepage.py:154]	Input text: 流山
+INFO	2025-09-16 10:00:39,601	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 10:00:39,601	[basepage.py:326]	Locator-value ://input[@id='organization']
+INFO	2025-09-16 10:00:39,615	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='organization']")
+INFO	2025-09-16 10:00:39,626	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 10:00:39,626	[basepage.py:326]	Locator-value ://input[@id='organization']
+INFO	2025-09-16 10:00:39,655	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='organization']")
+INFO	2025-09-16 10:00:39,808	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 10:00:39,808	[basepage.py:326]	Locator-value ://div[@data-testid='search-container']//input[@data-testid='dateBox-input-dateBox']

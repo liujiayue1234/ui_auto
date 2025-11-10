@@ -1,0 +1,19 @@
+INFO	2025-09-16 09:01:44,009	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:44,009	[basepage.py:326]	Locator-value ://input[@data-testid='login-organizationId-input']
+INFO	2025-09-16 09:01:44,019	[basepage.py:45]	Locate to the element: ('xpath', "//input[@data-testid='login-organizationId-input']")
+INFO	2025-09-16 09:01:44,078	[basepage.py:154]	Input text: 9999999999
+INFO	2025-09-16 09:01:44,079	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:44,079	[basepage.py:326]	Locator-value ://input[@data-testid='login-userId-input']
+INFO	2025-09-16 09:01:44,089	[basepage.py:45]	Locate to the element: ('xpath', "//input[@data-testid='login-userId-input']")
+INFO	2025-09-16 09:01:44,147	[basepage.py:154]	Input text: autoadmin
+INFO	2025-09-16 09:01:44,147	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:44,147	[basepage.py:326]	Locator-value ://button[@data-testid='login-login-button']
+INFO	2025-09-16 09:01:44,171	[basepage.py:80]	Click element by selenium: ('xpath', "//button[@data-testid='login-login-button']")
+INFO	2025-09-16 09:01:44,171	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:44,171	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:01:46,194	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:46,194	[basepage.py:326]	Locator-value ://p[@data-testid='login-password-validation-error']
+INFO	2025-09-16 09:01:46,207	[basepage.py:45]	Locate to the element: ('xpath', "//p[@data-testid='login-password-validation-error']")
+INFO	2025-09-16 09:01:46,210	[basepage.py:167]	Get text:Password is required.
+INFO	2025-09-16 09:01:51,003	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:51,004	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]

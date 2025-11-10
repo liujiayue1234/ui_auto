@@ -1,0 +1,145 @@
+#Search condition
+OrgInput: "xpath==//input[@id='organization']"
+TrunkTypeInput: "xpath==//input[@id='trunkTypeId']"
+ArrivalLocationInput: "xpath==//input[@id='arrivalLocation']"
+OpPatternInput: "xpath==//input[@id='trunkPatternId']"
+CarrierInput: "xpath==//input[@id='carrierId']"
+ContractStatusInput: "xpath==//input[@id='contractStatus']"
+CourseNameInput: "xpath==//div[@data-testid='-text-field']//input"
+startDateInput: "xpath==(//input[@data-testid='dateBox-input-dateBox'])[1]"
+endDateInput: "xpath==(//input[@data-testid='dateBox-input-dateBox'])[2]"
+SearchButton: "xpath==//div[contains(@class,'SearchCondition')]//button[contains(@class,'MuiButton')]"
+
+RegisterNewButton: "xpath==//div[contains(@class,'headerWrapper')]//button"
+#tab
+ExportOpTab: "xpath==(//div[contains(@class,'MuiTab')]//button[contains(@class,'MuiTab')])[1]"
+DeleteTab: "xpath==(//div[contains(@class,'MuiTab')]//button[contains(@class,'MuiTab')])[2]"
+#export tab
+exportButton: "xpath==(//div[contains(@class,'jss')]//button[contains(@class,'MuiButton-containedPrimary')])[1]"
+selectAllExportButton: "xpath==(//button[@data-testid='select-all-button'])[1]"
+
+#delete tab
+deleteButton: "xpath==(//div[contains(@class,'jss')]//button[contains(@class,'MuiButton-containedPrimary')])[2]"
+selectAllDeleteButton: "xpath==(//button[@data-testid='select-all-button'])[2]"
+
+#tunk line list- export
+export_trunkList: "xpath==(//div[@data-id='trunk-list-####'])[1]" # trunk line id
+export_checkbox: "xpath==(//div[@data-id='trunk-list-####'])[1]//input[@type='checkbox']" # trunk line id
+export_trunkNameButton: "xpath==(//div[@data-id='trunk-list-####'])[1]//button[@data-testid='button-trunk-name']" # trunk line id
+export_trunkType: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='trunkTypeName']"
+export_contractStatus: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='contractStatus']"
+export_courseName: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='courseName']"
+export_trunkName: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='trunkLineName']"
+export_DpTime: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='plannedStartingTime']"
+export_OpPattern: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='operationPatternName']"
+export_carrierName: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='carrierName']"
+export_contractDate: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='contractDate']"
+export_route: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='route']"
+export_comment: "xpath==(//div[@data-id='trunk-list-####'])[1]//div[@data-field='remark']"
+#tunk line list- delete
+delete_trunkList: "xpath==(//div[@data-id='trunk-list-####'])[2]" # trunk line id
+delete_checkbox: "xpath==(//div[@data-id='trunk-list-####'])[2]//input[@type='checkbox']" # trunk line id
+delete_trunkNameButton: "xpath==(//div[@data-id='trunk-list-####'])[2]//button[@data-testid='button-trunk-name']" # trunk line id
+delete_trunkType: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='trunkTypeName']"
+delete_contractStatus: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='contractStatus']"
+delete_courseName: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='courseName']"
+delete_trunkName: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='trunkLineName']"
+delete_DpTime: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='plannedStartingTime']"
+delete_OpPattern: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='operationPatternName']"
+delete_carrierName: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='carrierName']"
+delete_contractDate: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='contractDate']"
+delete_route: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='route']"
+delete_comment: "xpath==(//div[@data-id='trunk-list-####'])[2]//div[@data-field='remark']"
+#tunk line list- main
+trunkList: "xpath==(//div[@data-id='trunk-list-####'])[3]" # trunk line id# trunk line id
+trunkNameButton: "xpath==(//div[@data-id='trunk-list-####'])[3]//button[@data-testid='button-trunk-name']" # trunk line id
+trunkType: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='trunkTypeName']"
+contractStatus: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='contractStatus']"
+courseName: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='courseName']"
+trunkName: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='trunkLineName']"
+DpTime: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='plannedStartingTime']"
+OpPattern: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='operationPatternName']"
+carrierName: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='carrierName']"
+contractDate: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='contractDate']"
+route: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='route']"
+comment: "xpath==(//div[@data-id='trunk-list-####'])[3]//div[@data-field='remark']"
+#popup
+Popup: "xpath==//div[@aria-labelledby='confirm-dialog-title']"
+PopupTitle: "xpath==//div[@aria-labelledby='confirm-dialog-title']//h2"
+PopupHint: "xpath==//div[@aria-labelledby='confirm-dialog-title']//p[@data-testid='confirm-dialog-content']"
+PopupItemNo: "xpath==(//div[@aria-labelledby='confirm-dialog-title']//tr)[####]//td[1]" # item order
+PopupItemTrunkName: "xpath==(//div[@aria-labelledby='confirm-dialog-title']//tr)[####]//td[2]" # item order
+PopupItemCourseName: "xpath==(//div[@aria-labelledby='confirm-dialog-title']//tr)[####]//td[3]" # item order
+PopupYesButton: "xpath==//div[@aria-labelledby='confirm-dialog-title']//button[@data-testid='confirm-dialog-button-yes']"
+PopupNoButton: "xpath==//div[@aria-labelledby='confirm-dialog-title']//button[@data-testid='confirm-dialog-button-no']"
+# detail
+detail_trunkId: "xpath==//div[@data-testid='trunkLineId-input-area']//p"
+detail_OrgId: "xpath==//div[@data-testid='organization-input-area']//p"
+detail_courseName: "xpath==//div[@data-testid='courseName-input-area']//p"
+detail_trunkName: "xpath==//div[@data-testid='trunkLineName-input-area']//p"
+detail_trunkType: "xpath==//div[@data-testid='trunkTypeName-input-area']//p"
+detail_opPattern: "xpath==//div[@data-testid='operationPatternName-input-area']//p"
+detail_carrier: "xpath==//div[@data-testid='carrierName-input-area']//p"
+detail_vhType: "xpath==//div[@data-testid='vehicleTypeName-input-area']//p"
+detail_conStart: "xpath==//div[@data-testid='contractStartDate-input-area']//p"
+detail_conEnd: "xpath==//div[@data-testid='contractEndDate-input-area']//p"
+detail_cost: "xpath==//div[@data-testid='trunkLineCost-input-area']//p"
+detail_weight: "xpath==//div[@data-testid='vehicleLoadWeight-input-area']//p"
+detail_PhoneNum: "xpath==//div[@data-testid='contactPhoneNumber-input-area']//p"
+detail_vhNum: "xpath==//div[@data-testid='vehicleNumber-input-area']//p"
+detail_driver: "xpath==//div[@data-testid='driverName-input-area']//p"
+detail_comment: "xpath==//div[@data-testid='remark-text-field']//textarea"
+detail_Dp_location: "xpath==//div[contains(@class,'Departure')]//*[@data-testid='locationName-input-area']//p"
+detail_Dp_PlanArTime: "xpath==//div[contains(@class,'Departure')]//*[@data-testid='plannedArrivalTime-input-area']"
+detail_Dp_PlanDpTime: "xpath==//div[contains(@class,'Departure')]//*[@data-testid='plannedStartingTime-input-area']"
+detail_Ar_location: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='locationId-input-area']//p"
+detail_Ar_planArTime: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='plannedArrivalTime-input-area']"
+detail_Ar_planArDate: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='plannedArrivalDateOffset-input-area']"
+detail_Ar_planDpTime: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='plannedDepartureTime-input-area']"
+detail_Ar_planDpDate: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='plannedDepartureDateOffset-input-area']"
+
+detail_backButton: "xpath==//button[@data-testid='back-btn']"
+detail_editButton: "xpath==//button[@data-testid='edit-btn']"
+detail_copyRegisterButton: "xpath==//button[@data-testid='copy-register-btn']"
+
+#edit
+edit_conEndInput: "xpath==//input[@data-testid='dateBox-input-dateBox']"
+edit_backButton: "xpath==//button[@data-testid='back-btn']"
+edit_saveButton: "xpath==//button[@data-testid='save-btn']"
+
+#register
+register_OrgInput: "xpath==//input[@id='organizationId']"
+register_CourseNameInput: "xpath==//input[@id='courseName']"
+register_TrunkNameInput: "xpath==//input[@id='trunkLineName']"
+register_TrunkTypeInput: "xpath==//input[@id='trunkTypeId']"
+register_PatternInput: "xpath==//input[@id='trunkPatternId']"
+register_CarrierInput: "xpath==//input[@id='carrierId']"
+register_VehicleTypeInput: "xpath==//input[@id='vehicleTypeId']"
+register_StartDateInput: "xpath==//div[@data-testid='contractStartDate-input-area']//input"
+register_EndDateInput: "xpath==//div[@data-testid='contractEndDate-input-area']//input"
+register_CostInput: "xpath==//input[@id='trunkLineCost']"
+register_LoadWeightInput: "xpath==//input[@id='vehicleLoadWeight']"
+register_PhoneNumberInput: "xpath==//input[@id='phoneNumber']"
+register_VehicleNumberInput: "xpath==//input[@id='vehicleNumber']"
+register_DriverNameInput: "xpath==//input[@id='driverName']"
+register_CommentInput: "xpath==//textarea[@id='remark']"
+register_BackButton: "xpath==//button[@data-testid='return-btn']"
+register_RegisterButton: "xpath==//button[@data-testid='register-btn']"
+register_IrregularReason: "xpath==//input[@id='irregularReason']"
+#register - departure info
+register_Dp_DpLocationInput: "xpath==//div[@data-testid='departureLocationId-input-area']//input"
+register_Dp_PlanArrivalTimeInput: "xpath==(//div[contains(@class,'Departure_mandatory')]//input)[2]"
+register_Dp_PlanDepartureTimeInput: "xpath==(//div[contains(@class,'Departure_mandatory')]//input)[3]"
+#register - arrival info
+register_Ar_AddItemButton: "xpath==//div[contains(@class,'Destination_addBtn')]"
+register_Ar_DeleteIcon: "xpath==(//div[@data-testid='destinationCard'])[####]//div[contains(@class,'closeBtn')]" # arrival order
+register_Ar_LocationInput: "xpath==(//div[@data-testid='destinationCard'])[####]//input[contains(@id,'locationId')]" # arrival order
+register_Ar_PlanArrivalTimeInput: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='plannedArrivalTime-input-area']//input" # arrival order
+register_Ar_PlanArrivalDayInput: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='plannedArrivalDateOffset-input-area']//input" # arrival order
+register_Ar_PlanDepartureTimeInput: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='plannedDepartureTime-input-area']//input" # arrival order
+register_Ar_PlanDepartureDayInput: "xpath==(//div[@data-testid='destinationCard'])[####]//div[@data-testid='plannedDepartureDateOffset-input-area']//input" # arrival order
+#register error
+register_startDateError: "xpath==//p[@data-testid='contractStartDate-error']"
+register_endDateError: "xpath==//p[@data-testid='contractEndDate-error']"
+register_backendError: "xpath==//div[contains(@class,'GlobalErrorDialog')]"
+register_closeError: "xpath==//button[@data-testid='confirm-dialog-button-yes']"

@@ -1,0 +1,24 @@
+﻿#login
+organizationIdInput: "xpath==//android.widget.EditText[@resource-id='organization-id']"
+driverIdInput: "xpath==//android.widget.EditText[@resource-id='driver-id']"
+passwordInput: "xpath==//android.widget.EditText[@resource-id='password']"
+passwordHideIcon: "xpath==//android.view.ViewGroup[@content-desc='eye_icon']"
+privacyPolicy: "xpath==//android.widget.TextView[@text='Privacy Policy']"
+loginButton: "xpath==//android.widget.Button[@content-desc='submit']"
+errorMsg: "xpath==//android.widget.TextView[@resource-id='error-message']"
+
+#Trunkline permission
+policyCheck: "xpath==//android.widget.CheckBox/android.view.ViewGroup/android.widget.CheckBox"
+agreeButton: "xpath==//android.widget.Button[@content-desc='Agree']"
+#System permission
+systemAuth: "xpath==//android.widget.Button[@resource-id='com.android.permissioncontroller:id/permission_allow_foreground_only_button']"
+
+#Ongoing
+ongoingNo: "xpath==//android.widget.Button[@content-desc='no-button']"
+ongoingContinue: "xpath==//android.widget.Button[@content-desc='yes-button']"
+#logtout
+logoutButton: "xpath==//android.widget.Button[@content-desc='Logout']"
+logoutNo: "xpath==//android.widget.Button[@content-desc='No']"
+logoutYes: "xpath==//android.widget.Button[@resource-id='modal-confirm']"
+
+

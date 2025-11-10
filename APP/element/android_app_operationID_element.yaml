@@ -1,0 +1,28 @@
+﻿#Operation ID
+AppName : "xpath==//android.widget.TextView[contains(@text,'Driver App') or contains(@text,'ドライバー')]"
+Version : "xpath==//android.widget.TextView[contains(@text,'version-')]"
+OperationID : "xpath==//android.widget.TextView[contains(@text,'ID')][1]"
+OperationIDInput : "xpath==//android.widget.EditText[@resource-id='trunk-line-id-input']"
+ScanIcon: "xpath==//android.view.ViewGroup[@resource-id='button-scan']/android.widget.Button"
+ReturnButton: "xpath==//android.widget.Button[@content-desc='Return']"
+Date: "xpath==//android.widget.TextView[contains(@text,'202') and contains(@text,'/')]"
+DateSelect: "xpath==//android.widget.LinearLayout[@resource-id='com.trunkline.jprl.qa:id/pickerWrapper']"
+DateSelectCancel: "xpath==//android.widget.Button[@resource-id='android:id/button2']"
+DateSelectConfirm: "xpath==//android.widget.Button[@resource-id='android:id/button1']"
+ScanOperationID: "xpath==//android.widget.TextView[contains(@text,'ID')][2]"
+CourseTrunkName: "xpath==//android.widget.TextView[@resource-id='course-and-trunk-name']"
+ConfirmButton: "xpath==//android.widget.Button[@content-desc='Confirm']"
+#Error-trunk line - not exist
+ErrorPopupMessage: "xpath==//android.widget.TextView[@resource-id='modal-message']"
+ErrorPopupOKButton: "xpath==//android.widget.Button[@content-desc='OK']"
+#Trunk line - completed
+CompleteMessage: "xpath==(//android.view.View)[2]"
+CompleteCloseButton: "xpath==//android.widget.Button[@content-desc='no-button']"
+
+
+#logtout
+logoutButton: "xpath==//android.widget.Button[@content-desc='Logout']"
+logoutNo: "xpath==//android.widget.Button[@content-desc='No']"
+logoutYes: "xpath==//android.widget.Button[@resource-id='modal-confirm']"
+
+

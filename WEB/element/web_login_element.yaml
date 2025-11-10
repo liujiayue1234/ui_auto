@@ -1,0 +1,35 @@
+﻿organizationIdInput: "xpath==//input[@data-testid='login-organizationId-input']"
+userIdInput: "xpath==//input[@data-testid='login-userId-input']"
+passwordInput: "xpath==//input[@data-testid='login-password-input']"
+passwordVisibleButton: "xpath==//button[@aria-label='toggle password visibility']"
+loginButton: "xpath==//button[@data-testid='login-login-button']"
+
+languageButton: "xpath==//button[@data-testid='header-language-menu']"
+JPOption: "xpath==//li[text()='日本語']"
+ENOption: "xpath==//li[text()='English']"
+
+logoutIcon: "xpath==//button[@data-testid='header-userMenu-icon']"
+logoutOption: "xpath==//li[@data-testid='header-userMenu-logout']"
+
+ManuCard: "xpath==//button[./*[@data-testid='menu-card-title']]"
+
+#Sidebar
+Sidebar: "xpath==//button[contains(@class,'Sidebar')]"
+SidebarActualArrival: "xpath==//h6[contains(@class,'Sidebar') and (contains(.,'Actual Arrival') or contains(.,'発着実績'))]"
+SidebarTrunkOverview: "xpath==//h6[contains(@class,'Sidebar') and (.='Trunk Overview' or .='便一覧')]"
+SidebarOperationSchedule: "xpath==//h6[contains(@class,'Sidebar') and (contains(.,'Operation Schedule') or contains(.,'運行予定'))]"
+SidebarKanbanExport: "xpath==//h6[contains(@class,'Sidebar') and (.='Kanban Export' or contains(.,'情報出力'))]"
+SidebarKanbanMaster: "xpath==//h6[contains(@class,'Sidebar') and (.='Kanban Master' or contains(.,'情報マスター'))]"
+SidebarUserMaster: "xpath==//h6[contains(@class,'Sidebar') and (.='User Master' or .='ユーザーマスター')]"
+
+#error
+OrgMissError: "xpath==//p[@data-testid='login-organizationId-validation-error']"
+userMissError: "xpath==//p[@data-testid='login-userId-validation-error']"
+pwdMissError: "xpath==//p[@data-testid='login-password-validation-error']"
+wrongPwdError: "xpath==//*[@data-testid='errorList-error-content']"
+NetworkError: "xpath==//div[contains(@class,'GlobalErrorDialog')]"
+NetworkErrorClose: "xpath==//*[@data-testid='confirm-dialog-button-yes']"
+
+# refresh icon
+#RefreshIcon: "xpath==//div[contains(@class,'scrollPaper')]//div[contains(@class,'CircularProgress')]"
+RefreshIcon: "xpath==//div[contains(@class,'CircularProgress')]"

@@ -1,0 +1,25 @@
+INFO	2025-09-16 09:05:33,018	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:33,019	[basepage.py:326]	Locator-value :(//*[@data-testid='dateBox-input-dateBox'])[1]
+INFO	2025-09-16 09:05:33,033	[basepage.py:45]	Locate to the element: ('xpath', "(//*[@data-testid='dateBox-input-dateBox'])[1]")
+INFO	2025-09-16 09:05:33,312	[basepage.py:154]	Input text: 20250917
+INFO	2025-09-16 09:05:33,312	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:33,312	[basepage.py:326]	Locator-value :(//*[@data-testid='dateBox-input-dateBox'])[2]
+INFO	2025-09-16 09:05:33,361	[basepage.py:45]	Locate to the element: ('xpath', "(//*[@data-testid='dateBox-input-dateBox'])[2]")
+INFO	2025-09-16 09:05:33,538	[basepage.py:154]	Input text: 20250917
+INFO	2025-09-16 09:05:33,538	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:33,538	[basepage.py:326]	Locator-value ://*[@data-testid='csv-export-btn']
+INFO	2025-09-16 09:05:33,607	[basepage.py:80]	Click element by selenium: ('xpath', "//*[@data-testid='csv-export-btn']")
+INFO	2025-09-16 09:05:33,607	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:33,607	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:05:34,619	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:34,619	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:05:35,642	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:35,643	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:05:37,653	[web_arrival_page.py:142]	CSV file has been successfully downloaded to: /Users/jiayue.a.liu/Library/CloudStorage/Box-Box/JiayueLiu/02_Projects/202412TrunkLine2/Trunkline_auto/Repo/tl_auto_p2/WEB/DOWNLOAD/Confidential_Trunk_Line_Operation_History_20250917-20250917.csv
+INFO	2025-09-16 09:05:37,655	[basepage.py:248]	CSV result:[['25R07080500194649', '2025/09/17', 'RSL流山', "'at@con_ir1", '臨時便', "'at@con_ir1", '日本郵便輸送（株）', '毎日', '2t', '2025/08/05', '2055/07/30', '100', '100.0', '100-1001-0010', '100', '100', 'automation irregular', 'jprl_lucygrpmgr', '2025/08/05', '00:46', '確認前', '', '', '', 'RFC流山', '00:00', '00:30', '', '', '0', '晴海', '01:00', '0', '', '', '01:30', '0', '', '', '0', '0', '', 'なし', 'なし', '芝', '02:00', '0', '', '', '', '', '', '', '0', '0', '', 'なし', 'なし', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']]
+INFO	2025-09-16 09:05:42,119	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:42,120	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:05:43,130	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:43,130	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:05:44,168	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:05:44,168	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]

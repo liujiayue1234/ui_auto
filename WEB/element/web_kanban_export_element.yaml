@@ -1,0 +1,52 @@
+﻿#Search - shuttle
+OrgInput: "xpath==//input[@id='organization']"
+OpTypeInput: "xpath==//input[@id='operation-type']"
+DepotInput: "xpath==//input[@id='depots']"
+TLNameInput: "xpath==//input[@id='trunk-line-names']"
+SearchButton: "xpath==//div[contains(@class,'search')]//button[contains(@class,'containedSecondary')]"
+#export
+ExportDateInput: "xpath==//div[@data-testid='shuttle-kanban-export-options']//input[@data-testid='dateBox-input-export-kanban-date-input']"
+ExportButton: "xpath==//div[@data-testid='shuttle-kanban-export-options']//button[contains(@class,'containedPrimary')]"  
+
+#shuttle tab
+shuttleTab: "xpath==(//button[@role='tab'])[1]"
+
+#kyokuchokuso tab
+kyokuchokusoTab: "xpath==(//button[@role='tab'])[2]"
+#select all button
+selectAllButton: "xpath==//button[@data-testid='select-all-button']"
+
+
+#shuttle table
+sh_checkbox: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='checkBox']//input"
+sh_kanbanId: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='kanbanId']"
+sh_depot: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='locationName']"
+sh_opType: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='operationType']"
+sh_remark1: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='remark1']"
+sh_endLocation: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='endLocation']"
+sh_postNo: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='postNo']"
+sh_remark2_1: "xpath==(//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='remark2']//p)[1]"
+sh_remark2_2: "xpath==(//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='remark2']//p)[2]"
+sh_sortNo_1: "xpath==(//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='sortNo']//p)[1]"
+sh_sortNo_2: "xpath==(//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='sortNo']//p)[2]"
+sh_extra: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='extraInformation']"
+sh_cloud: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='cloudShowing']"
+sh_lastExportDate: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='lastExportDate']"
+sh_sheet: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='sheetCount']"
+
+#kyokuchokuso table
+ky_checkbox: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='checkBox']//input"
+ky_kanbanId: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='kanbanId']"
+ky_sortNo: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='sortNo']"
+ky_depot: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='locationName']"
+ky_TLName: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='trunkLineName']"
+ky_route: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='route']"
+ky_startingTime: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='startingTime']"
+ky_remark: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='remark']"
+ky_lastExportDate: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='lastExportDate']"
+ky_sheet: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='shuttle-kanban-list-####']//div[@data-field='sheetCount']"
+
+#popup
+popupHint: "xpath==//div[@role='dialog']//p[@data-testid='confirm-dialog-content']"
+popupButtonNo: "xpath==//div[@role='dialog']//button[@data-testid='confirm-dialog-button-no']"
+popupButtonYes: "xpath==//div[@role='dialog']//button[@data-testid='confirm-dialog-button-yes']"

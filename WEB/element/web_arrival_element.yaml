@@ -1,0 +1,127 @@
+﻿#Search
+OrgInput: "xpath==//input[@id='organization']"
+OpDateInput: "xpath==//div[@data-testid='search-container']//input[@data-testid='dateBox-input-dateBox']"
+#OpDateInput: "xpath==//div[contains(@class,'SearchCondition')]//div[@data-testid='dateBox']"
+ConfirmStatusInput: "xpath==//input[@id='confirmStatusId']"
+ErrorStatusInput: "xpath==//input[@id='errorStatus']"
+OpStatusInput: "xpath==//input[@id='operationStatus']"
+TrunkTypeInput: "xpath==//input[@id='trunkTypeId']"
+CourseNameInput: "xpath==(//div[@data-testid='-text-field']//input)[1]"
+TrunkNameInput: "xpath==(//div[@data-testid='-text-field']//input)[2]"
+CarrierInput: "xpath==//input[@id='carrierId']"
+SearchButton: "xpath==//div[contains(@class,'searchButton')]//button"
+
+#CSV export
+CSVStartDate: "xpath==(//*[@data-testid='dateBox-input-dateBox'])[1]"
+CSVEndDate: "xpath==(//*[@data-testid='dateBox-input-dateBox'])[2]"
+CSVExportButton: "xpath==//*[@data-testid='csv-export-btn']"
+
+#Register
+RegisterButton: "xpath==//*[@data-testid='register-irregular-btn']"
+RegisterButtonInRegisterPage: "xpath==//button[@data-testid='register-btn']"
+
+#Confirm
+SelectAllButton: "xpath==//*[@data-testid='selectAllBtn']"
+SaveButton: "xpath==//div[contains(@class,'SearchCondition')]//*[contains(@class,'MuiButton-containedPrimary')]"
+
+#Card
+Card: "xpath==//*[contains(@class,'cardContainer')]"
+Checkbox: "xpath==//*[@id='checkbox_####']"# trunk line id
+CancelButton: "xpath==//*[@data-testid='trunkOperation-card-####']//button[@data-testid='cancel-button']" # trunk line id
+HideButton: "xpath==//input[@id='checkbox_####']/ancestor::tr//button[@data-testid='test-hide-btn']"
+ShowButton: "xpath==//input[@id='checkbox_####']/ancestor::tr//button[@data-testid='test-show-btn']"
+FirstCard: "xpath==//*[@data-testid='trunkOperation-card-####']" # trunk line id
+FirstLocationCard: "xpath==//*[@data-testid='trunkLine-card-####']" # trunk line id
+ArrivalLocationCard: "xpath==//*[@data-testid='trunkLine-card-####']" # trunk line stop id
+NameButton: "xpath==//*[@data-testid='trunkOperation-card-####']//button[@data-testid='trunk-name-button']"
+
+#alert
+AlertHint: "xpath==//*[@data-testid='confirm-dialog-content']"
+YesButtonInAlert: "xpath==//button[@data-testid='confirm-dialog-button-yes']"
+NoButtonInAlert: "xpath==//button[@data-testid='confirm-dialog-button-no']"
+
+#arrival detail
+detail_Trunkid: "xpath==//*[@data-testid='trunkLineId-input-area']//p"
+detail_OpDate: "xpath==//*[@data-testid='operationDate-input-area']//p"
+detail_TrunkName: "xpath==//*[@data-testid='trunkName-input-area']"
+detail_TrunkType: "xpath==//*[@data-testid='trunkType-input-area']"
+detail_OpPattern: "xpath==//*[@data-testid='operationPattern-input-area']"
+detail_Carrier: "xpath==//*[@data-testid='carrierCompany-input-area']"
+detail_VhType: "xpath==//*[@data-testid='vehicleType-input-area']"
+detail_ConStart: "xpath==//*[@data-testid='contractStart-input-area']"
+detail_ConEnd: "xpath==//*[@data-testid='contractEnd-input-area']"
+detail_Cost: "xpath==//*[@data-testid='trunkLineCost-input-area']"
+detail_Weight: "xpath==//*[@data-testid='carryWeight-input-area']"
+detail_PhoneNum: "xpath==//*[@data-testid='phoneNumber-input-area']//p"
+detail_VhNum: "xpath==//*[@data-testid='vehicleNumber-input-area']//p"
+detail_DriverName: "xpath==//*[@data-testid='driverName-input-area']//p"
+detail_Comment: "xpath==//*[@data-testid='remark-input-area']//textarea"
+detail_Dp_PlanArTime: "xpath==//div[contains(@class,'Departure')]//*[@data-testid='plannedArrivalTime-input-area']"
+detail_Dp_PlanDpTime: "xpath==//div[contains(@class,'Departure')]//*[@data-testid='plannedDepartureTime-input-area']"
+detail_Dp_ActualArTime: "xpath==//div[contains(@class,'Departure')]//*[@data-testid='actualDepartureTime-input-area']"
+detail_Dp_ActualDpTime: "xpath==//div[contains(@class,'Departure')]//*[@data-testid='actualDepartureTime-input-area']"
+detail_Dp_cart: "xpath==//div[contains(@class,'Departure')]//*[@data-testid='loadedItemCount-input-area']"
+detail_Ar_scanCart: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='expectedUnloadedItemCount-input-area']"
+detail_Ar_unloadCart: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='actualUnloadedItemCount-input-area']"
+detail_Ar_planArTime: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='plannedArrivalTime-input-area']"
+detail_Ar_planArDate: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='plannedArrivalDateOffset-input-area']"
+detail_Ar_planDpTime: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='plannedDepartureTime-input-area']"
+detail_Ar_planDpDate: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='plannedDepartureDateOffset-input-area']"
+detail_Ar_actualArTime: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='actualArrivalTime-input-area']"
+detail_Ar_actualDpTime: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='actualDepartureTime-input-area']"
+
+
+detail_backButton: "xpath==//*[@data-testid='return-btn']"
+detail_editButton: "xpath==//*[@data-testid='edit-btn']"
+#Edit arrival & departure data
+edit_backButton: "xpath==//*[@data-testid='return-btn']"
+edit_saveButton: "xpath==//*[@data-testid='save-btn']"
+
+edit_TrunkIdText: "xpath==//div[@data-testid='trunkLineId-input-area']//p"
+edit_CourseNameText: "xpath==//div[@data-testid='courseName-input-area']"
+edit_TrunkNameText: "xpath==//div[@data-testid='trunkName-input-area']"
+edit_TrunkTypeText: "xpath==//div[@data-testid='trunkType-input-area']"
+edit_OpPatternText: "xpath==//div[@data-testid='operationPattern-input-area']"
+edit_CarrierText: "xpath==//div[@data-testid='carrierCompany-input-area']"
+edit_VhTypeText: "xpath==//div[@data-testid='vehicleType-input-area']"
+edit_CostText: "xpath==//div[@data-testid='trunkLineCost-input-area']"
+
+edit_Dp_loadedCarText: "xpath==//div[@data-testid='departure-card-container']//div[@data-testid='loadedItemCount-input-area']//p"
+edit_Ar_scannedCartText: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='expectedUnloadedItemCount-input-area']//p"
+edit_Ar_unloadedCartText: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='actualUnloadedItemCount-input-area']//p"
+edit_Ar_arrivalTimeText: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='actualArrivalTime-input-area']//p"
+edit_Ar_departureTimeText: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[@data-testid='actualDepartureTime-input-area']//p"
+
+
+#basic info
+edit_CommentInput: "xpath==//textarea[@id='remark']"
+edit_PhoneNumberInput: "xpath==//input[@id='phoneNumber']"
+edit_VehicleNumberInput: "xpath==//input[@id='vehicleNumber']"
+edit_DriverNameInput: "xpath==//input[@id='driverName']"
+
+#departure
+edit_Dp_actualDpTime: "xpath==//div[@data-testid='departure-card-container']//input[@data-testid='dateTimePicker-input-dateTimePicker']"
+edit_Dp_timePicker: "xpath==//div[@data-testid='departure-card-container']//button[contains(@data-testid,'TimePicker')]"
+edit_Dp_loadedCarInput: "xpath==//div[@data-testid='departure-card-container']//div[@data-testid='loadedItemCount-input-area']//input"
+
+#arrival
+edit_Ar_card: "xpath==//div[@data-testid='operationDestinationCard']" #normal
+edit_Ar_scannedCartInput: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[contains(@data-testid,'expectedUnloadedItemCount')]//input" #card order , only for normal
+edit_Ar_unloadedCartInput: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[contains(@data-testid,'actualUnloadedItemCount')]//input" #card order
+edit_Ar_arrivalTimePicker: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[contains(@data-testid,'actualArrivalTime')]//button"
+edit_Ar_departureTimePicker: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[contains(@data-testid,'actualDepartureTime')]//button"
+edit_Ar_actualArTime: "xpath==(//div[@data-testid='operationDestinationCard'])[1]//div[contains(@data-testid,'actualArrivalTime')]//input"
+edit_Ar_actualDpTime: "xpath==(//div[@data-testid='operationDestinationCard'])[####]//div[contains(@data-testid,'actualDepartureTime')]//input"
+
+
+#Calendar time picker
+edit_LastMonthPicker: "xpath==(//div[contains(@class,'CalendarHeader')]//button)[1]"
+edit_NextMonthPicker: "xpath==(//div[contains(@class,'CalendarHeader')]//button)[2]"
+edit_DayPicker: "xpath==(//div[contains(@class,'Calendar-week')]//button[@tabindex='0'])[####]" # which date of selected month
+edit_HourPicker: "xpath==//div[contains(@class,'PickersClock')]//span[.='####']" # which hour of selected day ,00,1,2,23 
+edit_MinutePicker: "xpath==//div[contains(@class,'PickersClock')]//span[.='####']" #  which minute of selected hour,00,05,10,55
+
+#confirm in edit page
+edit_Confirm_hint: "xpath==//*[@data-testid='confirm-dialog-content']"
+edit_YesButton: "xpath==//*[@data-testid='confirm-dialog-button-yes']"
+edit_NoButton: "xpath==//*[@data-testid='confirm-dialog-button-no']"

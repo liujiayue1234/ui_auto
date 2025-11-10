@@ -1,0 +1,33 @@
+INFO	2025-09-16 09:02:30,862	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:30,862	[basepage.py:326]	Locator-value ://input[@data-testid='login-organizationId-input']
+INFO	2025-09-16 09:02:30,872	[basepage.py:45]	Locate to the element: ('xpath', "//input[@data-testid='login-organizationId-input']")
+INFO	2025-09-16 09:02:30,924	[basepage.py:154]	Input text: 07
+INFO	2025-09-16 09:02:30,924	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:30,924	[basepage.py:326]	Locator-value ://input[@data-testid='login-userId-input']
+INFO	2025-09-16 09:02:30,933	[basepage.py:45]	Locate to the element: ('xpath', "//input[@data-testid='login-userId-input']")
+INFO	2025-09-16 09:02:30,984	[basepage.py:154]	Input text: automgr
+INFO	2025-09-16 09:02:30,984	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:30,985	[basepage.py:326]	Locator-value ://input[@data-testid='login-password-input']
+INFO	2025-09-16 09:02:30,993	[basepage.py:45]	Locate to the element: ('xpath', "//input[@data-testid='login-password-input']")
+INFO	2025-09-16 09:02:31,053	[basepage.py:154]	Input text: 123456
+INFO	2025-09-16 09:02:31,053	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:31,053	[basepage.py:326]	Locator-value ://button[@data-testid='login-login-button']
+INFO	2025-09-16 09:02:31,078	[basepage.py:80]	Click element by selenium: ('xpath', "//button[@data-testid='login-login-button']")
+INFO	2025-09-16 09:02:31,078	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:31,078	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:02:33,103	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:33,103	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:02:35,138	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:35,138	[basepage.py:326]	Locator-value ://button[./*[@data-testid='menu-card-title']]
+INFO	2025-09-16 09:02:35,145	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:35,145	[basepage.py:326]	Locator-value ://button[@data-testid='header-userMenu-icon']
+INFO	2025-09-16 09:02:35,168	[basepage.py:80]	Click element by selenium: ('xpath', "//button[@data-testid='header-userMenu-icon']")
+INFO	2025-09-16 09:02:35,168	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:35,168	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:02:38,225	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:38,226	[basepage.py:326]	Locator-value ://li[@data-testid='header-userMenu-logout']
+INFO	2025-09-16 09:02:38,259	[basepage.py:80]	Click element by selenium: ('xpath', "//li[@data-testid='header-userMenu-logout']")
+INFO	2025-09-16 09:02:38,259	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:38,259	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:02:45,358	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:02:45,358	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]

@@ -1,0 +1,166 @@
+INFO	2025-09-16 09:38:05,702	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:05,702	[basepage.py:326]	Locator-value ://div[contains(@class,'headerWrapper')]//button
+INFO	2025-09-16 09:38:05,741	[basepage.py:80]	Click element by selenium: ('xpath', "//div[contains(@class,'headerWrapper')]//button")
+INFO	2025-09-16 09:38:05,741	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:05,741	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:35,779	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:35,780	[basepage.py:326]	Locator-value ://input[@id='organizationId']
+INFO	2025-09-16 09:38:35,793	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='organizationId']")
+INFO	2025-09-16 09:38:35,883	[basepage.py:154]	Input text: 流山
+INFO	2025-09-16 09:38:35,883	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:35,883	[basepage.py:326]	Locator-value ://input[@id='organizationId']
+INFO	2025-09-16 09:38:35,893	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='organizationId']")
+INFO	2025-09-16 09:38:35,901	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:35,901	[basepage.py:326]	Locator-value ://input[@id='organizationId']
+INFO	2025-09-16 09:38:35,910	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='organizationId']")
+INFO	2025-09-16 09:38:35,934	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:35,934	[basepage.py:326]	Locator-value ://input[@id='courseName']
+INFO	2025-09-16 09:38:35,948	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='courseName']")
+INFO	2025-09-16 09:38:36,662	[basepage.py:154]	Input text: at@#$%&
+INFO	2025-09-16 09:38:36,662	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:36,662	[basepage.py:326]	Locator-value ://input[@id='trunkLineName']
+INFO	2025-09-16 09:38:36,683	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkLineName']")
+INFO	2025-09-16 09:38:36,766	[basepage.py:154]	Input text: at@#$%&
+INFO	2025-09-16 09:38:36,767	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:36,767	[basepage.py:326]	Locator-value ://input[@id='trunkTypeId']
+INFO	2025-09-16 09:38:36,800	[basepage.py:80]	Click element by selenium: ('xpath', "//input[@id='trunkTypeId']")
+INFO	2025-09-16 09:38:36,800	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:36,800	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:38,838	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:38,838	[basepage.py:326]	Locator-value ://input[@id='trunkTypeId']
+INFO	2025-09-16 09:38:38,849	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkTypeId']")
+INFO	2025-09-16 09:38:38,858	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:38,858	[basepage.py:326]	Locator-value ://input[@id='trunkTypeId']
+INFO	2025-09-16 09:38:38,869	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkTypeId']")
+INFO	2025-09-16 09:38:38,877	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:38,877	[basepage.py:326]	Locator-value ://input[@id='trunkTypeId']
+INFO	2025-09-16 09:38:38,886	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkTypeId']")
+INFO	2025-09-16 09:38:38,895	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:38,895	[basepage.py:326]	Locator-value ://input[@id='trunkTypeId']
+INFO	2025-09-16 09:38:38,903	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkTypeId']")
+INFO	2025-09-16 09:38:38,911	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:38,911	[basepage.py:326]	Locator-value ://input[@id='trunkTypeId']
+INFO	2025-09-16 09:38:38,920	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkTypeId']")
+INFO	2025-09-16 09:38:38,933	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:38,933	[basepage.py:326]	Locator-value ://input[@id='trunkPatternId']
+INFO	2025-09-16 09:38:38,959	[basepage.py:80]	Click element by selenium: ('xpath', "//input[@id='trunkPatternId']")
+INFO	2025-09-16 09:38:38,960	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:38,960	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:41,022	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:41,022	[basepage.py:326]	Locator-value ://input[@id='trunkPatternId']
+INFO	2025-09-16 09:38:41,033	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkPatternId']")
+INFO	2025-09-16 09:38:41,040	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:41,040	[basepage.py:326]	Locator-value ://input[@id='trunkPatternId']
+INFO	2025-09-16 09:38:41,049	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkPatternId']")
+INFO	2025-09-16 09:38:41,056	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:41,056	[basepage.py:326]	Locator-value ://input[@id='trunkPatternId']
+INFO	2025-09-16 09:38:41,065	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='trunkPatternId']")
+INFO	2025-09-16 09:38:41,074	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:41,075	[basepage.py:326]	Locator-value ://input[@id='carrierId']
+INFO	2025-09-16 09:38:41,085	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='carrierId']")
+INFO	2025-09-16 09:38:41,137	[basepage.py:154]	Input text: 日本
+INFO	2025-09-16 09:38:41,137	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:41,137	[basepage.py:326]	Locator-value ://input[@id='carrierId']
+INFO	2025-09-16 09:38:41,146	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='carrierId']")
+INFO	2025-09-16 09:38:41,153	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:41,153	[basepage.py:326]	Locator-value ://input[@id='carrierId']
+INFO	2025-09-16 09:38:41,162	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='carrierId']")
+INFO	2025-09-16 09:38:41,172	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:41,172	[basepage.py:326]	Locator-value ://input[@id='vehicleTypeId']
+INFO	2025-09-16 09:38:41,198	[basepage.py:80]	Click element by selenium: ('xpath', "//input[@id='vehicleTypeId']")
+INFO	2025-09-16 09:38:41,198	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:41,198	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:43,219	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,219	[basepage.py:326]	Locator-value ://input[@id='vehicleTypeId']
+INFO	2025-09-16 09:38:43,229	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='vehicleTypeId']")
+INFO	2025-09-16 09:38:43,238	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,238	[basepage.py:326]	Locator-value ://input[@id='vehicleTypeId']
+INFO	2025-09-16 09:38:43,247	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='vehicleTypeId']")
+INFO	2025-09-16 09:38:43,255	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,255	[basepage.py:326]	Locator-value ://input[@id='vehicleTypeId']
+INFO	2025-09-16 09:38:43,264	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='vehicleTypeId']")
+INFO	2025-09-16 09:38:43,274	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,274	[basepage.py:326]	Locator-value ://div[@data-testid='contractStartDate-input-area']//input
+INFO	2025-09-16 09:38:43,285	[basepage.py:45]	Locate to the element: ('xpath', "//div[@data-testid='contractStartDate-input-area']//input")
+INFO	2025-09-16 09:38:43,346	[basepage.py:154]	Input text: 20250917
+INFO	2025-09-16 09:38:43,346	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,347	[basepage.py:326]	Locator-value ://div[@data-testid='contractEndDate-input-area']//input
+INFO	2025-09-16 09:38:43,357	[basepage.py:45]	Locate to the element: ('xpath', "//div[@data-testid='contractEndDate-input-area']//input")
+INFO	2025-09-16 09:38:43,417	[basepage.py:154]	Input text: 20250917
+INFO	2025-09-16 09:38:43,418	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,418	[basepage.py:326]	Locator-value ://textarea[@id='remark']
+INFO	2025-09-16 09:38:43,481	[basepage.py:45]	Locate to the element: ('xpath', "//textarea[@id='remark']")
+INFO	2025-09-16 09:38:43,544	[basepage.py:154]	Input text: at@#$%&
+INFO	2025-09-16 09:38:43,545	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,545	[basepage.py:326]	Locator-value ://input[@id='vehicleNumber']
+INFO	2025-09-16 09:38:43,556	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='vehicleNumber']")
+INFO	2025-09-16 09:38:43,622	[basepage.py:154]	Input text: at@#$%&
+INFO	2025-09-16 09:38:43,622	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,622	[basepage.py:326]	Locator-value ://input[@id='driverName']
+INFO	2025-09-16 09:38:43,634	[basepage.py:45]	Locate to the element: ('xpath', "//input[@id='driverName']")
+INFO	2025-09-16 09:38:43,696	[basepage.py:154]	Input text: at@#$%&
+INFO	2025-09-16 09:38:43,696	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,696	[basepage.py:326]	Locator-value ://div[@data-testid='departureLocationId-input-area']//input
+INFO	2025-09-16 09:38:43,708	[basepage.py:45]	Locate to the element: ('xpath', "//div[@data-testid='departureLocationId-input-area']//input")
+INFO	2025-09-16 09:38:43,767	[basepage.py:154]	Input text: 流山
+INFO	2025-09-16 09:38:43,767	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,767	[basepage.py:326]	Locator-value ://div[@data-testid='departureLocationId-input-area']//input
+INFO	2025-09-16 09:38:43,778	[basepage.py:45]	Locate to the element: ('xpath', "//div[@data-testid='departureLocationId-input-area']//input")
+INFO	2025-09-16 09:38:43,786	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,786	[basepage.py:326]	Locator-value ://div[@data-testid='departureLocationId-input-area']//input
+INFO	2025-09-16 09:38:43,796	[basepage.py:45]	Locate to the element: ('xpath', "//div[@data-testid='departureLocationId-input-area']//input")
+INFO	2025-09-16 09:38:43,807	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,807	[basepage.py:326]	Locator-value :(//div[@data-testid='destinationCard'])[1]//input[contains(@id,'locationId')]
+INFO	2025-09-16 09:38:43,820	[basepage.py:45]	Locate to the element: ('xpath', "(//div[@data-testid='destinationCard'])[1]//input[contains(@id,'locationId')]")
+INFO	2025-09-16 09:38:43,914	[basepage.py:154]	Input text: 晴海
+INFO	2025-09-16 09:38:43,914	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,914	[basepage.py:326]	Locator-value :(//div[@data-testid='destinationCard'])[1]//input[contains(@id,'locationId')]
+INFO	2025-09-16 09:38:43,925	[basepage.py:45]	Locate to the element: ('xpath', "(//div[@data-testid='destinationCard'])[1]//input[contains(@id,'locationId')]")
+INFO	2025-09-16 09:38:43,936	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,936	[basepage.py:326]	Locator-value :(//div[@data-testid='destinationCard'])[1]//input[contains(@id,'locationId')]
+INFO	2025-09-16 09:38:43,950	[basepage.py:45]	Locate to the element: ('xpath', "(//div[@data-testid='destinationCard'])[1]//input[contains(@id,'locationId')]")
+INFO	2025-09-16 09:38:43,965	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:43,965	[basepage.py:326]	Locator-value ://button[@data-testid='register-btn']
+INFO	2025-09-16 09:38:44,006	[basepage.py:80]	Click element by selenium: ('xpath', "//button[@data-testid='register-btn']")
+INFO	2025-09-16 09:38:44,006	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:44,006	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:46,027	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:46,027	[basepage.py:326]	Locator-value ://div[@aria-labelledby='confirm-dialog-title']//button[@data-testid='confirm-dialog-button-yes']
+INFO	2025-09-16 09:38:46,060	[basepage.py:80]	Click element by selenium: ('xpath', "//div[@aria-labelledby='confirm-dialog-title']//button[@data-testid='confirm-dialog-button-yes']")
+INFO	2025-09-16 09:38:46,060	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:46,060	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:47,066	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:47,067	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:48,080	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:48,080	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:50,147	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:50,147	[basepage.py:326]	Locator-value ://div[@data-testid='-text-field']//input
+INFO	2025-09-16 09:38:50,159	[basepage.py:45]	Locate to the element: ('xpath', "//div[@data-testid='-text-field']//input")
+INFO	2025-09-16 09:38:50,899	[basepage.py:154]	Input text: at@#$%&
+INFO	2025-09-16 09:38:50,899	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:50,899	[basepage.py:326]	Locator-value ://div[contains(@class,'SearchCondition')]//button[contains(@class,'MuiButton')]
+INFO	2025-09-16 09:38:51,050	[basepage.py:80]	Click element by selenium: ('xpath', "//div[contains(@class,'SearchCondition')]//button[contains(@class,'MuiButton')]")
+INFO	2025-09-16 09:38:51,050	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:51,050	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:52,065	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:52,065	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:54,588	[data_construction.py:49]	Login successful at 2025-09-16 09:38:54 with status 200
+INFO	2025-09-16 09:38:54,973	[data_construction.py:128]	{'User-Agent': 'python-requests/2.32.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Cookie': 'tidi_access_token=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJrc2c4Rnd5aUczYXZJNkxKaEptcHpiek5kbzZNTDdmc3ZfRWkwVjZ6RUNBIn0.eyJleHAiOjE3NTc5ODcwMzQsImlhdCI6MTc1Nzk4NjczNCwianRpIjoiYzJmM2NiNzMtMjNkZC00Y2MxLWI0NDgtZGYwMDdlZTdlYzE1IiwiaXNzIjoiaHR0cDovL2tleWNsb2FrLTE4MDgwLWxvZ2ktYnByLXFhLmpwZTItY2FhczEtcHJvZDMuY2Fhcy5qcGUyYy5yLWxvY2FsLm5ldC9hdXRoL3JlYWxtcy85OTk5OTk5OTk5IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImI5ZjhhMGQxLTk3MGQtNDA1Ny1iNzUxLWQ3NDFjYzczNTVlYiIsInR5cCI6IkJlYXJlciIsImF6cCI6InRtcy1nYXRld2F5Iiwic2Vzc2lvbl9zdGF0ZSI6IjU5NzkwNGJjLTUyOTAtNGJlZC1iZWMwLWIyZWYxZjlhMWQ2MyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ0aWRpOjk5OTk5OTk5OTk6YWxsOnN5c3RlbS1hZG1pbiIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy05OTk5OTk5OTk5Il19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjU5NzkwNGJjLTUyOTAtNGJlZC1iZWMwLWIyZWYxZjlhMWQ2MyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkFkbWluX2F1dG8gQWRtaW5fQXV0byIsInByZWZlcnJlZF91c2VybmFtZSI6Ijk5OTk5OTk5OTlfYXV0b2FkbWluIiwiZ2l2ZW5fbmFtZSI6IkFkbWluX2F1dG8iLCJmYW1pbHlfbmFtZSI6IkFkbWluX0F1dG8ifQ.nF5VTX8N0TfwhaUP4kRjDkHFSrQNJ44q-xPgjJ97HJs-xd2uBYiJB6Xz67JhJHY5AQDmCVX0aNVCth1PeKdsjY97fbFUtfPIuuyA59V3ce0uNjj8zMSBSyfiy-QoMX77nNGePxVYU6854_2ytXegjM-eNWxxXC9gi5qat9bUDzb1AD-QvReS7mOCbQOANZIJwG1Hdwyzm_g33Er0AaRS7d88MvM04cmUss_VdyJwiucUuqwVP31-C-F6ei8RjZz_3o2qcqUKggMBPEnFDJ8ZC1NpC_cE00V_p7iLxv18MXd6Z18qqDMMKG4DtlGy0rGXdHwXETx1AUs6ii3mdc9WLQ; tidi_refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3OGU4MmUwNi04OTFlLTQ4ODYtOTFiZS1jMGU5MGJmMzBjNzgifQ.eyJleHAiOjE3NTc5ODg1MzQsImlhdCI6MTc1Nzk4NjczNCwianRpIjoiZmFmOWY2MDMtMmVlYy00YjU4LTgyMzgtOTdlMjJkMzVlYjJiIiwiaXNzIjoiaHR0cDovL2tleWNsb2FrLTE4MDgwLWxvZ2ktYnByLXFhLmpwZTItY2FhczEtcHJvZDMuY2Fhcy5qcGUyYy5yLWxvY2FsLm5ldC9hdXRoL3JlYWxtcy85OTk5OTk5OTk5IiwiYXVkIjoiaHR0cDovL2tleWNsb2FrLTE4MDgwLWxvZ2ktYnByLXFhLmpwZTItY2FhczEtcHJvZDMuY2Fhcy5qcGUyYy5yLWxvY2FsLm5ldC9hdXRoL3JlYWxtcy85OTk5OTk5OTk5Iiwic3ViIjoiYjlmOGEwZDEtOTcwZC00MDU3LWI3NTEtZDc0MWNjNzM1NWViIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6InRtcy1nYXRld2F5Iiwic2Vzc2lvbl9zdGF0ZSI6IjU5NzkwNGJjLTUyOTAtNGJlZC1iZWMwLWIyZWYxZjlhMWQ2MyIsInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI1OTc5MDRiYy01MjkwLTRiZWQtYmVjMC1iMmVmMWY5YTFkNjMifQ.-d7eH_QE495RUvlx3BnhXwASNqXhuf8DukrhOJaGCyM; XSRF-TOKEN=d4590d29-0423-4bf3-a72d-fd619cde13a9'}
+INFO	2025-09-16 09:38:54,973	[data_construction.py:129]	{"data":{"trunkLineOperations":[{"organizationId":"07","trunkLineId":"25R07091610103846","operationDate":"2025-09-17","courseName":"at@#$%&","trunkLineName":"at@#$%&","vehicleTypeName":"2t","startLocationName":"RFC流山","plannedArrivalTime":null,"plannedStartingTime":null,"actualStartingTime":null,"remark":"at@#$%&","businessStatus":"ARRANGED","departureStatus":"NORMAL","trunkLineType":"定期持込便","trunkTypeCode":3,"carrierName":"日本郵便輸送（株）","driverName":"at@#$%&","vehicleNumber":"at@#$%&","contactPhoneNumber":null,"trunkLineCost":0,"loadedItemCount":0,"operationPatternName":"毎日","operationStops":[{"trunkLineStopId":10426,"stopLocationName":"晴海","trunkLineStopName":"晴海","stopOrder":1,"plannedArrivalTime":null,"plannedArrivalDateOffset":null,"plannedDepartureTime":null,"plannedDepartureDateOffset":null,"actualArrivalTime":null,"actualDepartureTime":null,"remark":null,"delayStatus":"NORMAL","locationId":"104879900101","stopBusinessStatus":"BEFORE_ARRIVAL","expectedUnloadedItemCount":0,"actualUnloadedItemCount":0,"unloadedItemCountStatus":null}]}]}}
+INFO	2025-09-16 09:38:54,973	[data_construction.py:130]	<Response [200]>
+INFO	2025-09-16 09:38:54,973	[data_construction.py:136]	First trunkLineId:25R07091610103846
+INFO	2025-09-16 09:38:54,974	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:54,974	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:38:56,980	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:38:56,980	[basepage.py:326]	Locator-value :(//div[@data-id='trunk-list-25R07091610103846'])[3]//button[@data-testid='button-trunk-name']
+INFO	2025-09-16 09:38:57,397	[data_construction.py:49]	Login successful at 2025-09-16 09:38:57 with status 200
+INFO	2025-09-16 09:38:57,399	[data_construction.py:281]	xsrf_token:cac08321-b504-47a3-a89d-8421db2163f3
+INFO	2025-09-16 09:38:57,778	[data_construction.py:301]	{'User-Agent': 'python-requests/2.32.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'X-XSRF-TOKEN': 'cac08321-b504-47a3-a89d-8421db2163f3', 'Authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJrc2c4Rnd5aUczYXZJNkxKaEptcHpiek5kbzZNTDdmc3ZfRWkwVjZ6RUNBIn0.eyJleHAiOjE3NTc5ODcwMzcsImlhdCI6MTc1Nzk4NjczNywianRpIjoiOWNhY2YxODAtZDJlMi00ZjRlLThlZDgtNGYzMTQ3YzRmNjdkIiwiaXNzIjoiaHR0cDovL2tleWNsb2FrLTE4MDgwLWxvZ2ktYnByLXFhLmpwZTItY2FhczEtcHJvZDMuY2Fhcy5qcGUyYy5yLWxvY2FsLm5ldC9hdXRoL3JlYWxtcy85OTk5OTk5OTk5IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImI5ZjhhMGQxLTk3MGQtNDA1Ny1iNzUxLWQ3NDFjYzczNTVlYiIsInR5cCI6IkJlYXJlciIsImF6cCI6InRtcy1nYXRld2F5Iiwic2Vzc2lvbl9zdGF0ZSI6IjlhN2NlNTFjLTJiODQtNGRiYS05Mzg1LWIzNmJjYTM2ZmU5NSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ0aWRpOjk5OTk5OTk5OTk6YWxsOnN5c3RlbS1hZG1pbiIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy05OTk5OTk5OTk5Il19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjlhN2NlNTFjLTJiODQtNGRiYS05Mzg1LWIzNmJjYTM2ZmU5NSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkFkbWluX2F1dG8gQWRtaW5fQXV0byIsInByZWZlcnJlZF91c2VybmFtZSI6Ijk5OTk5OTk5OTlfYXV0b2FkbWluIiwiZ2l2ZW5fbmFtZSI6IkFkbWluX2F1dG8iLCJmYW1pbHlfbmFtZSI6IkFkbWluX0F1dG8ifQ.JBN13hyGbKuI15_af5c3jX2qiPJYFkXVZSnrr4mrueDD67DtK8uFG1LS49LV3Jhhdv6JmmwzYE_bNIMlnUNlODg36bkwPdsMH5_4IC9k55DCb19trWorNmCT4I442H1jq0w6QiqoY7vbGPRu3QKK_GcYK6JbbvhqmSxOCUYhmXbQyrJOV5zWgK6N4FS3yVn0LaXiPRd8kNdBxU9shMRSzflzwKlbg9UyxpKVpixqasovAgEJgpf2RD35PIp0XuP5BL8u8ucnkF9-UQHQ4rkEn3x07TwWPkLkqWNBt1GrzQgQDrGlozR8phb1zx-QaIBx_FA5vistIV4IC7Vs_yLGcQ', 'Cookie': 'tidi_access_token=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJrc2c4Rnd5aUczYXZJNkxKaEptcHpiek5kbzZNTDdmc3ZfRWkwVjZ6RUNBIn0.eyJleHAiOjE3NTc5ODcwMzcsImlhdCI6MTc1Nzk4NjczNywianRpIjoiOWNhY2YxODAtZDJlMi00ZjRlLThlZDgtNGYzMTQ3YzRmNjdkIiwiaXNzIjoiaHR0cDovL2tleWNsb2FrLTE4MDgwLWxvZ2ktYnByLXFhLmpwZTItY2FhczEtcHJvZDMuY2Fhcy5qcGUyYy5yLWxvY2FsLm5ldC9hdXRoL3JlYWxtcy85OTk5OTk5OTk5IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImI5ZjhhMGQxLTk3MGQtNDA1Ny1iNzUxLWQ3NDFjYzczNTVlYiIsInR5cCI6IkJlYXJlciIsImF6cCI6InRtcy1nYXRld2F5Iiwic2Vzc2lvbl9zdGF0ZSI6IjlhN2NlNTFjLTJiODQtNGRiYS05Mzg1LWIzNmJjYTM2ZmU5NSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ0aWRpOjk5OTk5OTk5OTk6YWxsOnN5c3RlbS1hZG1pbiIsInVtYV9hdXRob3JpemF0aW9uIiwiZGVmYXVsdC1yb2xlcy05OTk5OTk5OTk5Il19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJvcGVuaWQgZW1haWwgcHJvZmlsZSIsInNpZCI6IjlhN2NlNTFjLTJiODQtNGRiYS05Mzg1LWIzNmJjYTM2ZmU5NSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkFkbWluX2F1dG8gQWRtaW5fQXV0byIsInByZWZlcnJlZF91c2VybmFtZSI6Ijk5OTk5OTk5OTlfYXV0b2FkbWluIiwiZ2l2ZW5fbmFtZSI6IkFkbWluX2F1dG8iLCJmYW1pbHlfbmFtZSI6IkFkbWluX0F1dG8ifQ.JBN13hyGbKuI15_af5c3jX2qiPJYFkXVZSnrr4mrueDD67DtK8uFG1LS49LV3Jhhdv6JmmwzYE_bNIMlnUNlODg36bkwPdsMH5_4IC9k55DCb19trWorNmCT4I442H1jq0w6QiqoY7vbGPRu3QKK_GcYK6JbbvhqmSxOCUYhmXbQyrJOV5zWgK6N4FS3yVn0LaXiPRd8kNdBxU9shMRSzflzwKlbg9UyxpKVpixqasovAgEJgpf2RD35PIp0XuP5BL8u8ucnkF9-UQHQ4rkEn3x07TwWPkLkqWNBt1GrzQgQDrGlozR8phb1zx-QaIBx_FA5vistIV4IC7Vs_yLGcQ; tidi_refresh_token=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3OGU4MmUwNi04OTFlLTQ4ODYtOTFiZS1jMGU5MGJmMzBjNzgifQ.eyJleHAiOjE3NTc5ODg1MzcsImlhdCI6MTc1Nzk4NjczNywianRpIjoiMWRlYTdmN2EtYzhhYy00MWRhLWEwN2QtYTBiYjNiODdmN2U4IiwiaXNzIjoiaHR0cDovL2tleWNsb2FrLTE4MDgwLWxvZ2ktYnByLXFhLmpwZTItY2FhczEtcHJvZDMuY2Fhcy5qcGUyYy5yLWxvY2FsLm5ldC9hdXRoL3JlYWxtcy85OTk5OTk5OTk5IiwiYXVkIjoiaHR0cDovL2tleWNsb2FrLTE4MDgwLWxvZ2ktYnByLXFhLmpwZTItY2FhczEtcHJvZDMuY2Fhcy5qcGUyYy5yLWxvY2FsLm5ldC9hdXRoL3JlYWxtcy85OTk5OTk5OTk5Iiwic3ViIjoiYjlmOGEwZDEtOTcwZC00MDU3LWI3NTEtZDc0MWNjNzM1NWViIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6InRtcy1nYXRld2F5Iiwic2Vzc2lvbl9zdGF0ZSI6IjlhN2NlNTFjLTJiODQtNGRiYS05Mzg1LWIzNmJjYTM2ZmU5NSIsInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiI5YTdjZTUxYy0yYjg0LTRkYmEtOTM4NS1iMzZiY2EzNmZlOTUifQ.zVn-dGoQU5U6mfElehouVlBD8Fb99AcC-ivXDn-oVYg; XSRF-TOKEN=cac08321-b504-47a3-a89d-8421db2163f3', 'Content-Length': '66'}
+INFO	2025-09-16 09:38:57,778	[data_construction.py:302]	{"data":{}}
+INFO	2025-09-16 09:38:57,779	[data_construction.py:303]	<Response [200]>
+INFO	2025-09-16 09:39:01,965	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:39:01,966	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:39:02,974	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:39:02,975	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:39:04,453	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:39:04,453	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]

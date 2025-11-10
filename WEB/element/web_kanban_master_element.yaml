@@ -1,0 +1,49 @@
+﻿#Search - shuttle
+OrgInput: "xpath==//input[@id='organization']"
+shuttleOpTypeInput: "xpath==//input[@id='shuttle-operation-type-input']"
+DepotInput: "xpath==//input[@id='depots']"
+TLNameInput: "xpath==//input[@id='tlIds']"
+SearchButton: "xpath==//div[contains(@class,'search')]//button[contains(@class,'containedSecondary')]"
+SaveButton: "xpath==//div[contains(@class,'search')]//button[contains(@class,'containedPrimary')]"  
+
+#shuttle tab
+shuttleTab: "xpath==(//button[@role='tab'])[1]"
+shuttleAddButton: "xpath==(//button[contains(@class,'containedSecondary') and @name='Add'])[2]"
+
+#kyokuchokuso tab
+kyokuchokusoTab: "xpath==(//button[@role='tab'])[2]"
+kyokuchokusoAddButton: "xpath==(//button[contains(@class,'containedSecondary') and @name='Add'])[1]"
+
+#shuttle table
+sh_deleteIcon: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='selected']"
+sh_kanbanId: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='kanbanId']"
+sh_depot: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='locationId']//input"
+sh_opType: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='operationType']//input"
+sh_remark1: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='remark1']//input"
+sh_endLocation: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='endLocation']//input"
+sh_postNo: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='postNo']//input"
+sh_remark2_1: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//input[@id='remark2']"
+sh_remark2_2: "xpath==(//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='remark2']//input)[2]"
+sh_sortNo_1: "xpath==(//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='sortNo']//input)[1]"
+sh_sortNo_2: "xpath==(//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='sortNo']//input)[2]"
+sh_extra: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='extraInformation']//input"
+sh_cloud: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='cloudShowing']//input"
+sh_lastExportDate: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='lastExportDate']"
+sh_sheet: "xpath==//div[contains(@data-testid,'shuttle')]//div[@data-id='####']//div[@data-field='sheetCount']//input"
+
+#kyokuchokuso table
+ky_deleteIcon: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='selected']"
+ky_kanbanId: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='kanbanId']"
+ky_sortNo: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='sortNo']//input"
+ky_depot: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='locationId']//input"
+ky_TLName: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='trunkLineId']//input"
+ky_route: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='route']//input"
+ky_startingTime: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='startingTime']//input"
+ky_remark: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='remark']//input"
+ky_lastExportDate: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='lastExportDate']"
+ky_sheet: "xpath==//div[contains(@data-testid,'kyokuchokuso')]//div[@data-id='####']//div[@data-field='sheetCount']//input"
+
+#popup
+popupHint: "xpath==//div[@role='dialog']//p"
+popupButtonNo: "xpath==//div[@role='dialog']//button[@data-testid='confirm-dialog-button-no']"
+popupButtonYes: "xpath==//div[@role='dialog']//button[@data-testid='confirm-dialog-button-yes']"

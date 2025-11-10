@@ -1,0 +1,23 @@
+INFO	2025-09-16 09:01:53,042	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:53,042	[basepage.py:326]	Locator-value ://input[@data-testid='login-organizationId-input']
+INFO	2025-09-16 09:01:53,052	[basepage.py:45]	Locate to the element: ('xpath', "//input[@data-testid='login-organizationId-input']")
+INFO	2025-09-16 09:01:53,115	[basepage.py:154]	Input text: 9999999999
+INFO	2025-09-16 09:01:53,115	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:53,115	[basepage.py:326]	Locator-value ://input[@data-testid='login-userId-input']
+INFO	2025-09-16 09:01:53,125	[basepage.py:45]	Locate to the element: ('xpath', "//input[@data-testid='login-userId-input']")
+INFO	2025-09-16 09:01:53,183	[basepage.py:154]	Input text: autoadmin
+INFO	2025-09-16 09:01:53,183	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:53,183	[basepage.py:326]	Locator-value ://input[@data-testid='login-password-input']
+INFO	2025-09-16 09:01:53,193	[basepage.py:45]	Locate to the element: ('xpath', "//input[@data-testid='login-password-input']")
+INFO	2025-09-16 09:01:53,250	[basepage.py:154]	Input text: ####
+INFO	2025-09-16 09:01:53,250	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:53,250	[basepage.py:326]	Locator-value ://button[@data-testid='login-login-button']
+INFO	2025-09-16 09:01:53,273	[basepage.py:80]	Click element by selenium: ('xpath', "//button[@data-testid='login-login-button']")
+INFO	2025-09-16 09:01:53,273	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:53,273	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
+INFO	2025-09-16 09:01:55,291	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:55,291	[basepage.py:326]	Locator-value ://*[@data-testid='errorList-error-content']
+INFO	2025-09-16 09:01:55,303	[basepage.py:45]	Locate to the element: ('xpath', "//*[@data-testid='errorList-error-content']")
+INFO	2025-09-16 09:01:55,306	[basepage.py:167]	Get text:GW1004: Login failed. Please check your Organization ID, User ID, and password.
+INFO	2025-09-16 09:01:58,661	[basepage.py:325]	Locator-method :xpath
+INFO	2025-09-16 09:01:58,661	[basepage.py:326]	Locator-value ://div[contains(@class,'CircularProgress')]
